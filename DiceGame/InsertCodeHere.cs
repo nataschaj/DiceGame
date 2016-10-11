@@ -9,9 +9,10 @@ namespace DiceGame
     {
         public void MyCode()
         {
-            //Die dicetusindudenforkop = new Die(1000);
-            //dicetusindudenforkop.RollDie();
-            //Console.WriteLine($"the value of the dice is {dicetusindudenforkop.GetValue()}");
+            Die dicetusindudenforkop = new Die(1000);
+            dicetusindudenforkop.RollDie();
+            Console.WriteLine($"the value of the dice is {dicetusindudenforkop.GetValue()}");
+            
 
             //Die die87 = new Die(87);
             //die87.RollDie();
