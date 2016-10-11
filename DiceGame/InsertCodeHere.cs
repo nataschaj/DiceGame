@@ -12,7 +12,11 @@ namespace DiceGame
             Die dicetusindudenforkop = new Die(1000);
             dicetusindudenforkop.RollDie();
             Console.WriteLine($"the value of the dice is {dicetusindudenforkop.GetValue()}");
-            
+
+            Die tendice = new Die(10);
+            tendice.RollDie();
+            Console.WriteLine($"the value of the dice is {tendice.GetValue()}");
+
 
             //Die die87 = new Die(87);
             //die87.RollDie();
